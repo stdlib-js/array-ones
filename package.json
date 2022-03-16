@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/array-ones",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "Create an array filled with ones and having a specified length.",
   "license": "Apache-2.0",
   "author": {
