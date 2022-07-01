@@ -34,32 +34,30 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/array-ones
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-ones = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/array-ones@umd/bundle.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-ones@umd/bundle.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.ones;
-})()
-</script>
+var ones = require( '@stdlib/array-ones' );
 ```
 
 #### ones( length\[, dtype] )
@@ -117,14 +115,9 @@ var arr = ones( 2, 'int32' );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-dtypes@umd/bundle.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-ones@umd/bundle.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var dtypes = require( '@stdlib/array-dtypes' );
+var ones = require( '@stdlib/array-ones' );
 
 // Get a list of array data types:
 var dt = dtypes();
@@ -136,11 +129,6 @@ for ( i = 0; i < dt.length; i++ ) {
     arr = ones( 4, dt[ i ] );
     console.log( arr );
 }
-
-})()
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -228,6 +216,7 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 [deno-url]: https://github.com/stdlib-js/array-ones/tree/deno
 [umd-url]: https://github.com/stdlib-js/array-ones/tree/umd
 [esm-url]: https://github.com/stdlib-js/array-ones/tree/esm
+[branches-url]: https://github.com/stdlib-js/array-ones/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/array-ones/main/LICENSE
 
