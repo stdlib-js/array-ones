@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import ones from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-ones@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/array-ones/tags). For example,
+
+```javascript
 import ones from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-ones@v0.1.0-deno/mod.js';
 ```
 
@@ -112,7 +117,7 @@ var arr = ones( 2, 'int32' );
 
 ```javascript
 import dtypes from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-dtypes@deno/mod.js';
-import ones from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-ones@v0.1.0-deno/mod.js';
+import ones from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-ones@deno/mod.js';
 
 // Get a list of array data types:
 var dt = dtypes();
