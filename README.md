@@ -45,38 +45,30 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/array-ones
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-ones = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/array-ones@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var ones = require( 'path/to/vendor/umd/array-ones/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-ones@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.ones;
-})();
-</script>
+var ones = require( '@stdlib/array-ones' );
 ```
 
 #### ones( length\[, dtype] )
@@ -134,14 +126,9 @@ var arr = ones( 2, 'int32' );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-dtypes@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-ones@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var dtypes = require( '@stdlib/array-dtypes' );
+var ones = require( '@stdlib/array-ones' );
 
 // Get a list of array data types:
 var dt = dtypes();
@@ -153,11 +140,6 @@ for ( i = 0; i < dt.length; i++ ) {
     arr = ones( 4, dt[ i ] );
     console.log( arr );
 }
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -175,6 +157,15 @@ for ( i = 0; i < dt.length; i++ ) {
 <!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
 
 <section class="related">
+
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/array-full`][@stdlib/array/full]</span><span class="delimiter">: </span><span class="description">create a filled array having a specified length.</span>
+-   <span class="package-name">[`@stdlib/array-nans`][@stdlib/array/nans]</span><span class="delimiter">: </span><span class="description">create an array filled with NaNs and having a specified length.</span>
+-   <span class="package-name">[`@stdlib/array-ones-like`][@stdlib/array/ones-like]</span><span class="delimiter">: </span><span class="description">create an array filled with ones and having the same length and data type as a provided array.</span>
+-   <span class="package-name">[`@stdlib/array-zeros`][@stdlib/array/zeros]</span><span class="delimiter">: </span><span class="description">create a zero-filled array having a specified length.</span>
 
 </section>
 
@@ -250,6 +241,18 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/array-ones/main/LICENSE
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
+
+<!-- <related-links> -->
+
+[@stdlib/array/full]: https://github.com/stdlib-js/array-full
+
+[@stdlib/array/nans]: https://github.com/stdlib-js/array-nans
+
+[@stdlib/array/ones-like]: https://github.com/stdlib-js/array-ones-like
+
+[@stdlib/array/zeros]: https://github.com/stdlib-js/array-zeros
+
+<!-- </related-links> -->
 
 </section>
 
