@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import ones from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-ones@deno/mod.js';
+import ones from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-ones@v0.2.1-deno/mod.js';
 ```
 
 #### ones( length\[, dtype] )
@@ -112,7 +112,7 @@ var arr = ones( 2, 'int32' );
 
 ```javascript
 import dtypes from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-dtypes@deno/mod.js';
-import ones from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-ones@deno/mod.js';
+import ones from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-ones@v0.2.1-deno/mod.js';
 
 // Get a list of array data types:
 var dt = dtypes();
