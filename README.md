@@ -212,8 +212,8 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/array-ones.svg
 [npm-url]: https://npmjs.org/package/@stdlib/array-ones
 
-[test-image]: https://github.com/stdlib-js/array-ones/actions/workflows/test.yml/badge.svg?branch=v0.2.1
-[test-url]: https://github.com/stdlib-js/array-ones/actions/workflows/test.yml?query=branch:v0.2.1
+[test-image]: https://github.com/stdlib-js/array-ones/actions/workflows/test.yml/badge.svg?branch=main
+[test-url]: https://github.com/stdlib-js/array-ones/actions/workflows/test.yml?query=branch:main
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/array-ones/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/array-ones?branch=main

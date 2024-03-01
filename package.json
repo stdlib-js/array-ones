@@ -44,8 +44,8 @@
     "@stdlib/types": "^0.3.2"
   },
   "devDependencies": {
-    "@stdlib/array-complex128": "^0.2.0",
-    "@stdlib/array-complex64": "^0.2.0",
+    "@stdlib/array-complex128": "^0.2.1",
+    "@stdlib/array-complex64": "^0.2.1",
     "@stdlib/array-dtypes": "^0.2.1",
     "@stdlib/array-float32": "^0.2.1",
     "@stdlib/array-float64": "^0.2.1",
