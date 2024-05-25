@@ -41,7 +41,8 @@
     "@stdlib/array-full": "^0.2.1",
     "@stdlib/complex-float32-ctor": "github:stdlib-js/complex-float32-ctor#main",
     "@stdlib/complex-float64-ctor": "github:stdlib-js/complex-float64-ctor#main",
-    "@stdlib/types": "^0.3.2"
+    "@stdlib/types": "^0.3.2",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.1"
   },
   "devDependencies": {
     "@stdlib/array-complex128": "^0.2.1",
