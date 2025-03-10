@@ -41,7 +41,8 @@
     "@stdlib/array-full": "^0.2.1",
     "@stdlib/complex-float32-ctor": "^0.0.2",
     "@stdlib/complex-float64-ctor": "^0.0.3",
-    "@stdlib/types": "^0.4.3"
+    "@stdlib/types": "^0.4.3",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.2"
   },
   "devDependencies": {
     "@stdlib/array-complex128": "^0.3.0",
