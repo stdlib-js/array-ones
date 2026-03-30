@@ -2,6 +2,40 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2026-03-30)
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`3323474`](https://github.com/stdlib-js/stdlib/commit/3323474c193b0a1cf6501ea8bf54381392562af6) - **refactor:** explicitly validate a provided input dtype _(by Athan Reines)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Athan Reines
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.2.2">
 
 ## 0.2.2 (2026-02-08)
