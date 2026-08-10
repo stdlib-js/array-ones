@@ -4,7 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-27)
+## Unreleased (2026-08-10)
+
+<section class="features">
+
+### Features
+
+-   [`2e31902`](https://github.com/stdlib-js/stdlib/commit/2e31902b44dfa195f9caa5ece57b1649a000e47a) - add float16 dtype support to `array/ones` [(#14123)](https://github.com/stdlib-js/stdlib/pull/14123)
+
+</section>
+
+<!-- /.features -->
 
 <section class="commits">
 
@@ -12,6 +22,7 @@
 
 <details>
 
+-   [`2e31902`](https://github.com/stdlib-js/stdlib/commit/2e31902b44dfa195f9caa5ece57b1649a000e47a) - **feat:** add float16 dtype support to `array/ones` [(#14123)](https://github.com/stdlib-js/stdlib/pull/14123) _(by Gururaj Gurram)_
 -   [`3323474`](https://github.com/stdlib-js/stdlib/commit/3323474c193b0a1cf6501ea8bf54381392562af6) - **refactor:** explicitly validate a provided input dtype _(by Athan Reines)_
 
 </details>
@@ -24,9 +35,10 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Gururaj Gurram
 
 </section>
 
